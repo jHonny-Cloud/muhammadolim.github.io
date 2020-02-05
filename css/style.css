@@ -1,0 +1,59 @@
+header .jarallax h5{
+    color: black;
+    background-color: rgba(248, 192, 67, 0.7);
+    max-width: 500px;
+    margin: auto;
+    padding: 5px 20px;
+}
+
+.nav-justified .nav-item {
+    flex-basis: auto;
+}
+
+.icon-area .circle-icon i {
+    background: #8f8e92;
+    width: 80px;
+    height: 80px;
+}
+
+.icon-area .circle-icon .fa-cog:hover {
+    background: #1b1f31;
+}
+.icon-area .circle-icon .fa-phone-laptop:hover {
+    background: #6317aa;
+}
+.icon-area .circle-icon .fa-rocket:hover {
+    background: #2456e0;
+}
+.icon-area .circle-icon .fa-leaf:hover {
+    background: #53b53f;
+}
+
+@media(max-width: 767px){ /* MD */
+    header .jarallax h1{
+        font-size: 57px
+    }
+
+    .icon-area .circle-icon .fa-cog {
+        background: #1b1f31;
+    }
+    .icon-area .circle-icon .fa-phone-laptop {
+        background: #6317aa;
+    }
+    .icon-area .circle-icon .fa-rocket {
+        background: #2456e0;
+    }
+    .icon-area .circle-icon .fa-leaf {
+        background: #53b53f;
+    }
+}
+
+@media(max-width: 575px){ /* SM */
+    header .jarallax h1{
+        font-size: 50px
+    }
+
+    #skills blockquote h5{
+        font-size: large;
+    }
+}
